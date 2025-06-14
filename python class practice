@@ -1,0 +1,226 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "421c44bf-0bdd-430d-bd8c-d44affa2b8fc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ayesha\n",
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "class student:\n",
+    "    def __init__(self,name,age):\n",
+    "       self.name=name\n",
+    "       self.age=age\n",
+    "y=student('ayesha',19)\n",
+    "print(y.name)\n",
+    "print(y.age)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f7235a82-3eaf-4ec5-9978-6eb272426240",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "e2ea28d9-d7c6-4f7e-b9e4-3eb89bea006c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ayesha is now sitting\n",
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "class student:\n",
+    "    def __init__(self,name,age):\n",
+    "       self.name=name\n",
+    "       self.age=age\n",
+    "y=student('ayesha',19)\n",
+    "print(f'{y.name} is now sitting')\n",
+    "print(y.age)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "946ba5c9-d034-4e94-a47b-1f1c079af267",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my dog name iswillie\n",
+      "my dog age is19\n",
+      "brave\n"
+     ]
+    }
+   ],
+   "source": [
+    "class dog:\n",
+    "    def __init__(self,name,age,nature):\n",
+    "        self.name=name\n",
+    "        self.age=age\n",
+    "        self.nature=nature\n",
+    "x=dog('willie',19,'brave')\n",
+    "print(f'my dog name is{x.name}')\n",
+    "print(f'my dog age is{x.age}')\n",
+    "print(x.nature)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b87dedab-3de4-4bfd-8bea-d37e8718fa39",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "06391144-652e-4fcb-9f2c-b6d1fd2725e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "wiilie is now sitting\n",
+      "ell is now sitting\n",
+      "wiilie rolled over\n",
+      "ell rolled over\n"
+     ]
+    }
+   ],
+   "source": [
+    "class dog:\n",
+    "    def __init__(self,name,age,naturte):\n",
+    "        self.name=name\n",
+    "        self.age=age\n",
+    "        self.nature=nature\n",
+    "    def sit(self):\n",
+    "        print(f'{self.name} is now sitting')\n",
+    "    def roll_over(self):\n",
+    "        print(f'{self.name} rolled over')\n",
+    "my_dog=dog('wiilie',6)\n",
+    "your_dog=dog('ell',3)\n",
+    "my_dog.sit()\n",
+    "your_dog.sit()\n",
+    "my_dog.roll_over()\n",
+    "your_dog.roll_over()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "7420b7b6-5619-42fa-86c5-213438a7c914",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name:ayesha\n",
+      "age:19\n",
+      "roll_no:70\n",
+      "grade:A\n",
+      "name:sana\n",
+      "age:20\n",
+      "roll_no:56\n",
+      "grade:B\n",
+      "name:sadaf\n",
+      "age:18\n",
+      "roll_no:97\n",
+      "grade:C\n"
+     ]
+    }
+   ],
+   "source": [
+    "class student:\n",
+    "    def __init__(self,name,age,roll_no,grade):\n",
+    "        self.name=name\n",
+    "        self.age=age\n",
+    "        self.roll_no=roll_no\n",
+    "        self.grade=grade\n",
+    "    def intro(self):\n",
+    "        print(f'name:{self.name}')\n",
+    "        print(f'age:{self.age}')\n",
+    "        print(f'roll_no:{self.roll_no}')\n",
+    "        print(f'grade:{self.grade}')   \n",
+    "student1=student('ayesha',19,70,'A') \n",
+    "student2=student('sana',20,56,'B')\n",
+    "student3=student('sadaf',18,97,'C')\n",
+    "   \n",
+    "student1.intro()\n",
+    "student2.intro()\n",
+    "student3.intro()\n",
+    "\n",
+    "\n",
+    "\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bdf95c6b-1909-4782-90fc-80c5fcbcc7fa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b8cb9c43-0698-45e5-88ff-335ffcf06fcb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
